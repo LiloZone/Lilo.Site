@@ -51,6 +51,12 @@ header nav {
   z-index: 1000;
 }
 
+/* Header 8 */
+.header_8 {
+  background: #121114 url(../i/ilustras/ilustraLiloZone1.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
 nav {
   width: 100%;
 }
@@ -520,6 +526,35 @@ b, strong {
   }
 }
 
+/* Navigation 11 */
+.navigation_11 .search {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.navigation_11 .search.focused {
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.navigation_11 .search button {
+  padding: 0;
+  background: transparent;
+}
+
+.navigation_11 .nav_logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+
 /* 5. Contents */
 @media (max-width: 767.98px) {
   .content_1 h2 {
@@ -530,6 +565,30 @@ b, strong {
 @media (max-width: 991.98px) {
   .content_2 .text-adaptive {
     margin-top: 15px;
+  }
+}
+
+/* Content 5 */
+.content_5 {
+  background: #141617 url(../i/liloTexture2.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.25), (-o-min-device-pixel-ratio: 5/4), (min-resolution: 120dpi) {
+  .content_5 {
+    background-image: url(../i/liloTexture2.jpg);
+  }
+}
+
+/* Content 6 */
+.content_6 {
+  background: #141617 url(../i/papel.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.25), (-o-min-device-pixel-ratio: 5/4), (min-resolution: 120dpi) {
+  .content_6 {
+    background-image: url(../i/papel.jpg);
   }
 }
 
