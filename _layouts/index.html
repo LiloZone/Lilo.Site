@@ -78,6 +78,9 @@
                         <div class="mt-45 f-18 medium black bold op-7 text-adaptive bottom50">
                             {{page.sobreP2}}
                         </div>
+                        <div class="mt-45 f-18 medium black bold op-7 text-adaptive bottom50">
+                            {{page.sobreP3}}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -220,33 +223,129 @@
 
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-                        <a href="#" class="mt-50 link color-main">
+                    <div class="col-md-3 col-sm-6" data-toggle="modal" data-target="#zucchinipress" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+                        <a class="mt-50 link color-main">
                             <img src="i/iniciativas/ZucchiniPress.jpg" class="img-fluid radius10 bg_white" alt="" />
                             <div class="mt-20 mb-15 f-22 title light_gray">zucchini.press</div>
                             <div class="color-heading f-14 semibold text-uppercase sp-20">Editora</div>
                         </a>
                     </div>
-                    <div class="col-md-3 col-sm-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-                        <a href="#" class="mt-50 link color-main">
+                    <!-- Modal zucchini.press-->
+                    <div id="zucchinipress" class="modal in" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title font_first font40 uppercase black">zucchini.press</h4>
+                                </div>
+                                <div class="modal-body padding_left30 padding_right30">
+                                    <p class="font_second font18 black">{{page.zpTextoModal}}</p>
+                                    <br>
+                                    <p class="font_second font18 black"><strong>{{page.modalAreas}}</strong></p>
+                                    <p class="font_second font14 black">{{page.zpAreas}}</p>
+                                    <br>
+                                    <p class="font_second font18 black"><strong>{{page.modalProdutos}}</strong></p>
+                                    <p class="font_second font14 black">{{page.zpProdutos}}</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default font_second font14" data-dismiss="modal">{{page.modalFechar}}</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6" data-toggle="modal" data-target="#zucchinivideo" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+                        <a class="mt-50 link color-main">
                             <img src="i/iniciativas/ZucchiniVideo.jpg" class="img-fluid radius10 bg_white" alt="" />
                             <div class="mt-20 mb-15 f-22 title light_gray">zucchini.video</div>
                             <div class="color-heading f-14 semibold text-uppercase sp-20">Plataforma de video</div>
                         </a>
                     </div>
-                    <div class="col-md-3 col-sm-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-                        <a href="#" class="mt-50 link color-main">
+                    <!-- Modal zucchini.video-->
+                    <div id="zucchinivideo" class="modal in" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title font_first font40 uppercase black">zucchini.video</h4>
+                                </div>
+                                <div class="modal-body padding_left30 padding_right30">
+                                    <p class="font_second font18 black">{{page.zvTextoModal}}</p>
+                                    <br>
+                                    <p class="font_second font18 black"><strong>{{page.modalAreas}}</strong></p>
+                                    <p class="font_second font14 black">{{page.zvAreas}}</p>
+                                    <br>
+                                    <p class="font_second font18 black"><strong>{{page.modalProdutos}}</strong></p>
+                                    <p class="font_second font14 black">{{page.zvProdutos}}</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default font_second font14" data-dismiss="modal">{{page.modalFechar}}</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6" data-toggle="modal" data-target="#nana" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+                        <a class="mt-50 link color-main">
                             <img src="i/iniciativas/Nana.jpg" class="img-fluid radius10 bg_white" alt="" />
                             <div class="mt-20 mb-15 f-22 title light_gray">NANA</div>
                             <div class="color-heading f-14 semibold text-uppercase sp-20">Wearables</div>
                         </a>
                     </div>
-                    <div class="col-md-3 col-sm-6" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-                        <a href="#" class="mt-50 link color-main">
+                    <!-- Modal NANA-->
+                    <div id="nana" class="modal in" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title font_first font40 uppercase black">NANA</h4>
+                                </div>
+                                <div class="modal-body padding_left30 padding_right30">
+                                    <p class="font_second font18 black">{{page.nanaTextoModal}}</p>
+                                    <br>
+                                    <p class="font_second font18 black"><strong>{{page.modalAreas}}</strong></p>
+                                    <p class="font_second font14 black">{{page.nanaAreas}}</p>
+                                    <br>
+                                    <p class="font_second font18 black"><strong>{{page.modalProdutos}}</strong></p>
+                                    <p class="font_second font14 black">{{page.nanaProdutos}}</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default font_second font14" data-dismiss="modal">{{page.modalFechar}}</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6" data-toggle="modal" data-target="#biolilolab" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
+                        <a class="mt-50 link color-main">
                             <img src="i/iniciativas/BioliloLab.jpg" class="img-fluid radius10 bg_white" alt="" />
                             <div class="mt-20 mb-15 f-22 title light_gray">BioLILOLab</div>
                             <div class="color-heading f-14 semibold text-uppercase sp-20">Biohacking</div>
                         </a>
+                    </div>
+                    <!-- Modal NANA-->
+                    <div id="biolilolab" class="modal in" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title font_first font40 uppercase black">BioLILOlab</h4>
+                                </div>
+                                <div class="modal-body padding_left30 padding_right30">
+                                    <p class="font_second font18 black">{{page.labTextoModal}}</p>
+                                    <br>
+                                    <p class="font_second font18 black"><strong>{{page.modalAreas}}</strong></p>
+                                    <p class="font_second font14 black">{{page.labAreas}}</p>
+                                    <br>
+                                    <p class="font_second font18 black"><strong>{{page.modalProdutos}}</strong></p>
+                                    <p class="font_second font14 black">{{page.labProdutos}}</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default font_second font14" data-dismiss="modal">{{page.modalFechar}}</button>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
